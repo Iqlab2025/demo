@@ -31,7 +31,7 @@ services:
     restart: unless-stopped
 
   zabbix-web:
-    image: ghcr.io/iqlab2025/zabbix-web:hakuna
+    image: ghcr.io/iqlab2025/mine-zabbi:latest
     container_name: zabbix-web
     depends_on:
       - zabbix-server
